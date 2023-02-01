@@ -1,7 +1,7 @@
-Path-Finder Package Fixes required
+# Path-Finder Protocol 
 
-# Errors
-## Fix Dependency Errors
+## Errors
+### Fix Dependency Errors
 
 This package depends on the following classes:
 - [ ] SActionButtonMorph
@@ -226,6 +226,6 @@ You must resolve these dependencies before you will be able to load these defini
 - [ ] SViewWrapper>>selectedView:
 - [ ] SViewWrapper>>valueWithReceiver:arguments:
 
-## Fix Syntax Errors
+### Fix Syntax Errors
 
 - [ ] SCallTreeTracer postProfilingPercentage Line 4 

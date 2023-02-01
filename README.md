@@ -1,6 +1,8 @@
 # Perseverance
 
-WIP
+The Perseverance Project ports the [Path Tools Framework}(https://www.hpi.uni-potsdam.de/hirschfeld/trac/SqueakCommunityProjects/wiki/pathToolsFramework) developed by Michael Perscheid for Squeak 4.4 to Squeak 6.0. 
+
+The following paragraphs are used as a protocol/ todo list for the project.
 
 ## Load Sequence
 
