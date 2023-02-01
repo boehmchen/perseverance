@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'src/Path-Finder.package' : #SquotCypressCodeSerializer
+	'src/Path-Finder.package' : #SquotCypressCodeSerializer,
+	'src/BaselineOfPerseverance.package' : #SquotCypressCodeSerializer
 }

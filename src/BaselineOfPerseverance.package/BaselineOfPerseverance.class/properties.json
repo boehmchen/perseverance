@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPerseverance",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPerseverance",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
