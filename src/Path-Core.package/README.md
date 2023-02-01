@@ -23,24 +23,24 @@ You must resolve these dependencies before you will be able to load these defini
 - [ ] SPathToolsIcons class>>radiobugIconContents  `Path-Core-Morphic`
 - [ ] SPathToolsIcons class>>setupIcon  `Path-Core-Morphic`
 - [ ] SPathToolsIcons class>>setupIconContents  `Path-Core-Morphic`
-- [ ] SStateInstanceVariableWrapper `Path-Core-Tools-Browser`
-- [ ] SStateInstanceVariableWrapper>>valueWithReceiver:arguments: `Path-Core-Tools-Browser`
-- [ ] SStateMethodWrapper `Path-Core-Tools-Browser`
-- [ ] SStateMethodWrapper>>valueWithReceiver:arguments: `Path-Core-Tools-Browser`
-- [ ] SWrapper `Path-Core-Tracer`
-- [ ] SWrapper class>>canWrap:inClass: `Path-Core-Tracer`
-- [ ] SWrapper class>>initialize `Path-Core-Tracer`
-- [ ] SWrapper class>>on:inClass:with: `Path-Core-Tracer`
-- [ ] SWrapper>>asMethodReference `Path-Core-Tracer`
-- [ ] SWrapper>>tracer `Path-Core-Tracer`
-- [ ] SWrapper>>tracer: `Path-Core-Tracer`
+- [X] SStateInstanceVariableWrapper `Path-Core-Tools-Browser`
+- [X] SStateInstanceVariableWrapper>>valueWithReceiver:arguments: `Path-Core-Tools-Browser`
+- [X] SStateMethodWrapper `Path-Core-Tools-Browser`
+- [X] SStateMethodWrapper>>valueWithReceiver:arguments: `Path-Core-Tools-Browser`
+- [X] SWrapper `Path-Core-Tracer`
+- [X] SWrapper class>>canWrap:inClass: `Path-Core-Tracer`
+- [X] SWrapper class>>initialize `Path-Core-Tracer`
+- [X] SWrapper class>>on:inClass:with: `Path-Core-Tracer`
+- [X] SWrapper>>asMethodReference `Path-Core-Tracer`
+- [X] SWrapper>>tracer `Path-Core-Tracer`
+- [X] SWrapper>>tracer: `Path-Core-Tracer`
 
 ### Fix Syntax Errors
 
-- SBrowser mergeByteCodes: -> Line 2 inject: "cannot store into"
-- SProject numberOfMethods -> Line 4 into: "cannot store into"
-- SProject numberOfMethodsOfCategory:withQuick: -> Line 6 "cannot store into" 
-- SBrowser
+- [X] SBrowser mergeByteCodes: -> Line 2 inject: "cannot store into"
+- [X] SProject numberOfMethods -> Line 4 into: "cannot store into"
+- [X] SProject numberOfMethodsOfCategory:withQuick: -> Line 6 "cannot store into" 
+- [X] SBrowser
 
 
 ## Notes
