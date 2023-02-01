@@ -1,0 +1,231 @@
+Path-Finder Package Fixes required
+
+# Errors
+## Fix Dependency Errors
+
+This package depends on the following classes:
+- [ ] SActionButtonMorph
+- [ ] STreeModel
+- [ ] SDefinitionModel
+- [ ] SCodeExplorerIndentingListItemMorph
+- [ ] MwMethodWrapper
+- [ ] SCodePaneMorph
+
+
+You must resolve these dependencies before you will be able to load these definitions: 
+
+- [ ] SByteCodeCoverageWrapper
+- [ ] SByteCodeCoverageWrapper>>contextStep:
+- [ ] SByteCodeCoverageWrapper>>coveredByteCodes
+- [ ] SByteCodeCoverageWrapper>>coveredByteCodes:
+- [ ] SByteCodeCoverageWrapper>>valueWithReceiver:arguments:
+- [ ] SCallNodeDefinitionModel
+- [ ] SCallNodeDefinitionModel class>>on:
+- [ ] SCallNodeDefinitionModel>>update:
+- [ ] SCallTreeModel
+- [ ] SCallTreeModel class>>on:
+- [ ] SCallTreeModel class>>on:pathFinder:
+- [ ] SCallTreeModel>>addToHistory:
+- [ ] SCallTreeModel>>areColorsAvailable
+- [ ] SCallTreeModel>>browseMethod
+- [ ] SCallTreeModel>>callTreeMenu:
+- [ ] SCallTreeModel>>clearHighlighting
+- [ ] SCallTreeModel>>collectAllColorsFromNodes
+- [ ] SCallTreeModel>>currentHistoryNode
+- [ ] SCallTreeModel>>currentHistoryNode:
+- [ ] SCallTreeModel>>currentNode
+- [ ] SCallTreeModel>>currentNode:
+- [ ] SCallTreeModel>>debugMethod
+- [ ] SCallTreeModel>>drawExclamationMarkOn:
+- [ ] SCallTreeModel>>expandNode:
+- [ ] SCallTreeModel>>expandRootNode
+- [ ] SCallTreeModel>>expandSelectedNode
+- [ ] SCallTreeModel>>findNodeInSubGraph:startNode:
+- [ ] SCallTreeModel>>getAdditionalInformationFromMap:
+- [ ] SCallTreeModel>>getAllNodes
+- [ ] SCallTreeModel>>getChildren:
+- [ ] SCallTreeModel>>getClassesFromTrace
+- [ ] SCallTreeModel>>getColorFromMap:
+- [ ] SCallTreeModel>>getColorOfWorstDescendentOf:
+- [ ] SCallTreeModel>>getIcon:
+- [ ] SCallTreeModel>>getIconColorFor:
+- [ ] SCallTreeModel>>getMethodsFromTrace
+- [ ] SCallTreeModel>>getSearchQuery
+- [ ] SCallTreeModel>>getSelectedPath
+- [ ] SCallTreeModel>>getSubIconColorFor:
+- [ ] SCallTreeModel>>hasChildren:
+- [ ] SCallTreeModel>>hasInstructionAndPositionAfter:inNode:
+- [ ] SCallTreeModel>>hasInstructionAndPositionBefore:inNode:
+- [ ] SCallTreeModel>>history
+- [ ] SCallTreeModel>>history:
+- [ ] SCallTreeModel>>historyBack
+- [ ] SCallTreeModel>>historyBackButtonEnabled
+- [ ] SCallTreeModel>>historyPrevious
+- [ ] SCallTreeModel>>historyPreviousButtonEnabled
+- [ ] SCallTreeModel>>initialize
+- [ ] SCallTreeModel>>instructionAndPositionAfter:inNode:do:
+- [ ] SCallTreeModel>>instructionAndPositionBefore:inNode:do:
+- [ ] SCallTreeModel>>isTreeAvailable
+- [ ] SCallTreeModel>>newSelectedItem:
+- [ ] SCallTreeModel>>numberOfCallsBefore:
+- [ ] SCallTreeModel>>openPathViewOnTrace
+- [ ] SCallTreeModel>>openPathViewWith:
+- [ ] SCallTreeModel>>pathFinder
+- [ ] SCallTreeModel>>pathFinder:
+- [ ] SCallTreeModel>>preparePathView:with:
+- [ ] SCallTreeModel>>printInfosForNode:
+- [ ] SCallTreeModel>>refresh
+- [ ] SCallTreeModel>>refreshHistoryButtons
+- [ ] SCallTreeModel>>refreshStepping
+- [ ] SCallTreeModel>>reset
+- [ ] SCallTreeModel>>rootCallNodes
+- [ ] SCallTreeModel>>rootNode
+- [ ] SCallTreeModel>>rootNode:
+- [ ] SCallTreeModel>>searchNode:
+- [ ] SCallTreeModel>>searchQuery
+- [ ] SCallTreeModel>>searchQuery:
+- [ ] SCallTreeModel>>selectNextSearchResult:
+- [ ] SCallTreeModel>>startingCallNodes
+- [ ] SCallTreeModel>>stepBack
+- [ ] SCallTreeModel>>stepBackButtonEnabled
+- [ ] SCallTreeModel>>stepInto
+- [ ] SCallTreeModel>>stepInto:
+- [ ] SCallTreeModel>>stepIntoButtonEnabled
+- [ ] SCallTreeModel>>stepOver
+- [ ] SCallTreeModel>>stepOverButtonEnabled
+- [ ] SCallTreeModel>>stepReturn
+- [ ] SCallTreeModel>>stepReturnButtonEnabled
+- [ ] SCallTreeModel>>stepToInstruction:position:inNode:
+- [ ] SCallTreeModel>>stepToLastInstructionIn:
+- [ ] SCallTreeModel>>stepToQuickMethod:
+- [ ] SCallTreeModel>>stepToSender
+- [ ] SCallTreeModel>>stepToSenderButtonEnabled
+- [ ] SCallTreeModel>>steppingNode
+- [ ] SCallTreeModel>>steppingNode:
+- [ ] SCallTreeModel>>steppingNodeAndPositionDo:
+- [ ] SCallTreeModel>>steppingPosition
+- [ ] SCallTreeModel>>steppingPosition:
+- [ ] SCallTreeModel>>steppingSelectionHighlightItems
+- [ ] SCallTreeModel>>tracer
+- [ ] SCallTreeModel>>tracer:
+- [ ] SCallTreeModel>>traverseCallTree:with:
+- [ ] SCallTreeModel>>traverseCallTree:with:abort:
+- [ ] SCallWrapper
+- [ ] SCallWrapper class>>on:inClass:withTracer:
+- [ ] SCallWrapper>>afterMethod
+- [ ] SCallWrapper>>beforeMethod:
+- [ ] SCallWrapper>>callsBefore
+- [ ] SCallWrapper>>callsBefore:
+- [ ] SCallWrapper>>ids
+- [ ] SCallWrapper>>ids:
+- [ ] SCallWrapper>>initialize
+- [ ] SCallWrapper>>selectedView:
+- [ ] SCallWrapper>>tracer
+- [ ] SCallWrapper>>tracer:
+- [ ] SCallWrapper>>valueWithReceiver:arguments:
+- [ ] SDebugWrapper
+- [ ] SDebugWrapper>>beforeMethod
+- [ ] SDebuggerCallTreeModel
+- [ ] SDebuggerCallTreeModel class>>openedMethodThreshold
+- [ ] SDebuggerCallTreeModel class>>openedMethodsPercentage
+- [ ] SDebuggerCallTreeModel>>getColor:
+- [ ] SDebuggerCallTreeModel>>getIconColorFor:
+- [ ] SDebuggerCallTreeModel>>getMostSuspicousDescendentFor:
+- [ ] SDebuggerCallTreeModel>>getSubIconColorFor:
+- [ ] SDebuggerCallTreeModel>>getSuspiciousnessAndConfidenceFor:
+- [ ] SDebuggerCallTreeModel>>getSuspiciousnessMapping
+- [ ] SDebuggerCallTreeModel>>preparePathView:with:
+- [ ] SDebuggerCallTreeModel>>printInfosForNode:
+- [ ] SDebuggerCallTreeModel>>searchNode:
+- [ ] SDebuggerCallTreeModel>>searchSuspiciousNodes:operator:
+- [ ] SDebuggerCallTreeModel>>suspiciousMethods
+- [ ] SDebuggerCallTreeModel>>suspiciousMethods:
+- [ ] SDebuggerCodeExplorerIndentingListItemMorph
+- [ ] SDebuggerCodeExplorerIndentingListItemMorph>>codePane
+- [ ] SDebuggerCodePaneMorph
+- [ ] SDebuggerCodePaneMorph class>>on:color:
+- [ ] SDebuggerCodePaneMorph class>>on:color:suspiciousColor:
+- [ ] SDebuggerCodePaneMorph>>buttonSpec
+- [ ] SDebuggerCodePaneMorph>>computeOchiaiFor:
+- [ ] SDebuggerCodePaneMorph>>displayTest:from:
+- [ ] SDebuggerCodePaneMorph>>faultLocalizationForMethod
+- [ ] SDebuggerCodePaneMorph>>faultTracer
+- [ ] SDebuggerCodePaneMorph>>getCoveredByteCodes
+- [ ] SDebuggerCodePaneMorph>>highlightAnomaliesAtStatements:
+- [ ] SDebuggerCodePaneMorph>>ochiaiForByteCode:from:
+- [ ] SDebuggerCodePaneMorph>>runTests:forAnalyzing:
+- [ ] SDebuggerCodePaneMorph>>suspiciousColor
+- [ ] SDebuggerCodePaneMorph>>suspiciousColor:
+- [ ] SExploreWrapper
+- [ ] SExploreWrapper class>>on:inClass:waitingCalls:exploreWhat:
+- [ ] SExploreWrapper>>exploreWhat
+- [ ] SExploreWrapper>>exploreWhat:
+- [ ] SExploreWrapper>>found
+- [ ] SExploreWrapper>>found:
+- [ ] SExploreWrapper>>getArguments:
+- [ ] SExploreWrapper>>getReturn:
+- [ ] SExploreWrapper>>getSelfAfter:
+- [ ] SExploreWrapper>>getSelfBefore:
+- [ ] SExploreWrapper>>getTypeInformation:of:
+- [ ] SExploreWrapper>>objects
+- [ ] SExploreWrapper>>objects:
+- [ ] SExploreWrapper>>valueWithReceiver:arguments:
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper class>>on:
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper>>coveredByteCodes
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper>>coveredByteCodes:
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper>>currentTest
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper>>currentTest:
+- [ ] SMethodByteCodeCoverageForAllTestsWrapper>>valueWithReceiver:arguments:
+- [ ] SProfilingWrapper
+- [ ] SProfilingWrapper>>afterMethod
+- [ ] SProfilingWrapper>>beforeMethod
+- [ ] SProfilingWrapper>>initialize
+- [ ] SProfilingWrapper>>stopwatches
+- [ ] SProfilingWrapper>>stopwatches:
+- [ ] SSpecificWrapper
+- [ ] SSpecificWrapper class>>on:inClass:waitingCalls:
+- [ ] SSpecificWrapper>>decrementCallCount
+- [ ] SSpecificWrapper>>incrementCallCount
+- [ ] SSpecificWrapper>>isSpecificCall
+- [ ] SSpecificWrapper>>numberOfCallsBefore
+- [ ] SSpecificWrapper>>numberOfCallsBefore:
+- [ ] SSteppingChildWrapper
+- [ ] SSteppingChildWrapper class>>on:inClass:waitingCalls:coverageWrapper:
+- [ ] SSteppingChildWrapper>>beforeMethod
+- [ ] SSteppingChildWrapper>>coverageWrapper
+- [ ] SSteppingChildWrapper>>coverageWrapper:
+- [ ] SSteppingChildWrapper>>parentPc
+- [ ] SSteppingChildWrapper>>parentPc:
+- [ ] SSteppingCoverageWrapper
+- [ ] SSteppingCoverageWrapper class>>on:inClass:waitingCalls:node:
+- [ ] SSteppingCoverageWrapper>>callNode
+- [ ] SSteppingCoverageWrapper>>callNode:
+- [ ] SSteppingCoverageWrapper>>childNodeWrappers
+- [ ] SSteppingCoverageWrapper>>childNodeWrappers:
+- [ ] SSteppingCoverageWrapper>>childNodesForPc:
+- [ ] SSteppingCoverageWrapper>>contextStep:
+- [ ] SSteppingCoverageWrapper>>createChildNodeWrappers
+- [ ] SSteppingCoverageWrapper>>currentPc
+- [ ] SSteppingCoverageWrapper>>currentPc:
+- [ ] SSteppingCoverageWrapper>>install
+- [ ] SSteppingCoverageWrapper>>installChildNodeWrappers
+- [ ] SSteppingCoverageWrapper>>parentPcForChildNode:
+- [ ] SSteppingCoverageWrapper>>uninstall
+- [ ] SSteppingCoverageWrapper>>uninstallChildNodeWrappers
+- [ ] STestResultFeedbackMorph
+- [ ] STestResultFeedbackMorph class>>defaultColor
+- [ ] STestResultFeedbackMorph class>>errorColor
+- [ ] STestResultFeedbackMorph class>>failureColor
+- [ ] STestResultFeedbackMorph class>>passedColor
+- [ ] STestResultFeedbackMorph>>initialize
+- [ ] STestResultFeedbackMorph>>update:
+- [ ] SViewWrapper
+- [ ] SViewWrapper>>getViewString:
+- [ ] SViewWrapper>>selectedView
+- [ ] SViewWrapper>>selectedView:
+- [ ] SViewWrapper>>valueWithReceiver:arguments:
+
+## Fix Syntax Errors
+
+- [ ] SCallTreeTracer postProfilingPercentage Line 4 
